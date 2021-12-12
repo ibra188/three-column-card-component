@@ -1,0 +1,100 @@
+html{
+    font-size: 15px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 6rem 2rem;
+    font-size: 15px;
+    color: hsl(0, 0%, 95%);
+}
+img{
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: 'Big Shoulders display', cursive;
+    margin-bottom: 1.5rem;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    line-height: 2;
+    color: hsl(0, 0%, 100% 0.75%);
+    margin-bottom: 2rem;
+    font-family: 'Lexend Deca' sans-serif;
+}
+
+div.sedan, div.suvs, div.luxury{
+    padding: 3rem;
+}
+div.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+a{
+    padding: 1rem;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 1.5rem;
+    letter-spacing: 1px;
+    width: 66%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lexend Deca' sans-serif;
+}
+div.sedan > a{
+    color: hsl(31, 77%, 52%);
+}
+div.sedan > a:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: solid 3px hsl(0, 0%, 95%);
+}
+
+div.suvs{
+   background-color:  hsl(184, 100%, 22%);   
+}
+
+div.suvs > a{
+    color: hsl(184, 100%, 22%);
+}
+div.suvs > a:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: solid 3px hsl(0, 0%, 95%);
+}
+
+div.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+div.luxury > a{
+    color: hsl(179, 100%, 13%);
+}
+
+div.luxury > a:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: solid 3px hsl(0, 0%, 95%);
+}
+footer{
+    color: black;
+    font-size: 11;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+footer > a{
+    padding: 0;
+    color: green;
+    text-decoration: underline;
+    display: inline;
+}
